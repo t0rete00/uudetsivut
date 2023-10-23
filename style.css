@@ -57,6 +57,7 @@ section{
 
 .btn{
     margin-top: 1rem;
+    margin-right: .6rem;
     display: inline-block;
     padding: .8rem 3rem;
     font-size: 1.7rem;
@@ -190,7 +191,7 @@ section{
     padding: 2.5rem;
 }
 
-.breed .box-container .box i{
+.breed .box-container .box a{
     height: 6rem;
     width: 6rem;
     line-height: 6rem;
@@ -210,12 +211,11 @@ section{
     font-size: 1.4rem;
     color: #eee;
     line-height: 1.8;
-    text-transform: capitalize;
 }
 
 .about .row{
     display: flex;
-    align-items: center;
+    align-items: start;
     flex-wrap: wrap;
     gap: 1.5rem;
 }
@@ -329,11 +329,244 @@ section{
     bottom: 100%;
     left: 50%;
     margin-left: -60px;
+    font-size: 16px;
 }
   
 .tooltip:hover .tooltiptext{
     visibility: visible;
 }
+
+.puppies .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.puppies .row .image{
+    flex:1 1 45rem;
+    padding:1rem;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.puppies .row .image img{
+    border-radius: .5rem;
+    border: 1rem solid #333;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.puppies .row .content{
+    flex:1 1 45rem;
+}
+
+.puppies .row .content h3{
+    font-size: 2.2rem;
+    color: #fff;
+    text-align: center;
+}
+
+.puppies .row .content p{
+    font-size: 2rem;
+    color: #eee;
+    padding:1rem 0;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.puppies .row .content p a:visited{
+    color:var(--main-color);
+}
+
+.inmemoriam .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap:1.5rem;
+}
+
+.inmemoriam .box-container .box{
+    position: relative;
+    border:1rem solid #333;
+    border-radius: .5rem;
+    height: 50rem;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.inmemoriam .box-container .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.inmemoriam .box-container .box:hover img{
+    transform: scale(1.1);
+    filter: grayscale();
+}
+
+.inmemoriam .box-container .box .title{
+    position: absolute;
+    top: -10rem; left: 0; right: 0;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.inmemoriam .box-container .box:hover .title{
+    top: 0;
+}
+
+.inmemoriam .box-container .box .icons{
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    background: #333;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.inmemoriam .box-container .box:hover .icons{
+    bottom: 0;
+}
+
+.inmemoriam .box-container .box .icons a{
+    font-size: 2rem;
+    margin: .5rem 1rem;
+    color: #fff;
+}
+
+.inmemoriam .box-container .box .icons a:hover{
+    color:var(--main-color);
+}
+
+.contact form{
+    max-width: 70rem;
+    margin:1rem auto;
+    text-align: center;
+}
+
+.contact form .inputBox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact form .inputBox input,
+.contact form textarea{
+    width: 100%;
+    background: #333;
+    border-radius: .5rem;
+    padding: 1rem;
+    margin: .7rem 0;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.contact form .inputBox input::placeholder,
+.contact form textarea::placeholder{
+    color: #eee;
+}
+
+.contact form .inputBox input::focus,
+.contact form textarea::focus{
+    background: #444;
+}
+
+.contact form .inputBox input{
+    width: 49%;
+}
+
+.contact form textarea{
+    resize: none;
+}
+
+.footer{
+    background: #111;
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+
+.footer .box-container .box h3{
+    font-size: 2.5rem;
+    padding: 1rem 0;
+    color: #fff;
+}
+
+.footer .box-container .box a{
+    display: block;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    color: #eee;
+}
+
+.footer .box-container .box a i{
+    padding-right: .5rem;
+    color:var(--main-color);
+}
+
+.footer .box-container .box a:hover i{
+    padding-right: 1.5rem;
+    color: #fff;
+}
+
+.footer .credit{
+    text-align: center;
+    border-top: .1rem solid #222;
+    color: #fff;
+    padding: 2rem;
+    padding-top: 2.5rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-item {
+    margin: 10px;
+}
+
+.gallery-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
+.dogspage h3{
+    font-size: 2.2rem;
+    color: #fff;
+    text-align: center;
+}
+
+.dogspage p{
+    font-size: 2.0rem;
+    color: #fff;
+    text-align: center;
+}
+
+.timer-test p{
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: left;
+}
+
 
 @media (max-width:991px){
 
@@ -396,5 +629,9 @@ section{
     
     .home .home-slider .swiper-slide{
         width: 27rem;
+    }
+
+    .contact form .inputBox input{
+        width: 100%;
     }
 }
