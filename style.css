@@ -526,10 +526,18 @@ section{
     font-size: 2rem;
 }
 
+dogspage{
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 100px;
 }
 
 .gallery-item {
