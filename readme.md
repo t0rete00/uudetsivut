@@ -1,5 +1,7 @@
 # Read me for Terhi Repo's website project
 
+https://t0rete00.github.io/uudetsivut
+
 HTML (25%)
 
 1/5:
@@ -50,23 +52,29 @@ Where: https://github.com/t0rete00/uudetsivut/blob/5e4b8e05d8c2d0395bcc67ff0798e
 4/5:
 Use of layouts for advanced user interfaces (arrays, float, flexbox, css grid)
 Done: yes (flexbox, css grid)
+For instance flex: https://github.com/t0rete00/uudetsivut/blob/9441bb26b70c39785b06bb5f89b48a688d4afd60/style.css#L81
+For instance grid: https://github.com/t0rete00/uudetsivut/blob/9441bb26b70c39785b06bb5f89b48a688d4afd60/style.css#L182
 
 5/5:
 Styling demonstrates a strong grasp of layout principles, aesthetics, and user experience.
+Done: yes
 
 JavaScript Basics (25%)
 
 1/5:
 Simple interactions (like alerts on button click).
 Done: yes
-Where:
+Where: https://github.com/t0rete00/uudetsivut/blob/9441bb26b70c39785b06bb5f89b48a688d4afd60/script.js#L4
 
 2/5:
 Multiple event listeners and basic DOM manipulations.
-Learn about Event Listeners
-    
+Done: yes
+For instance: https://github.com/t0rete00/uudetsivut/blob/9441bb26b70c39785b06bb5f89b48a688d4afd60/searchscript.js#L31
+
 3/5:
 Use of arrays, objects, and functions.
+Done: yes
+https://github.com/t0rete00/webbisovellusprojekti/blob/85ddd46a9cea832792e392d9b78df1d1cfed66d2/kuvat.html#L67
 
 4/5:
 Advanced logic, looping through data, and dynamic DOM updates.
@@ -79,20 +87,28 @@ Asynchronous Operations (25%)
 
 1/5:
 Use of timers.
-Yes, dogs.html
+Done: yes
+https://github.com/t0rete00/uudetsivut/blob/9441bb26b70c39785b06bb5f89b48a688d4afd60/dogs.html#L165
+https://github.com/t0rete00/uudetsivut/blob/9441bb26b70c39785b06bb5f89b48a688d4afd60/script.js#L37
 
 2/5:
 Successful implementation of an AJAX call or Fetch.
 Done: yes
 Image search
+https://github.com/t0rete00/uudetsivut/blob/9441bb26b70c39785b06bb5f89b48a688d4afd60/searchscript.js#L16
 
 3/5:
 Data from the asynchronous call is displayed on the webpage.
+Done: yes
+https://github.com/t0rete00/uudetsivut/blob/9441bb26b70c39785b06bb5f89b48a688d4afd60/searchscript.js#L16
+https://github.com/t0rete00/webbisovellusprojekti/blob/85ddd46a9cea832792e392d9b78df1d1cfed66d2/index.html#L32
 
 4/5:
 Error handling is implemented (for failed API calls, etc.).
 Done: yes
 Image search
+https://github.com/t0rete00/uudetsivut/blob/9441bb26b70c39785b06bb5f89b48a688d4afd60/searchscript.js#L42
 
+5/5
 Effective use of asynchronous data to enhance user experience (like filtering, sorting).
-
+Done: no
